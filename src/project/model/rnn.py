@@ -104,7 +104,7 @@ class RNNEncoder(LightningModule):
     def configure_optimizers(self):
         if self.hparams.optimizer is None:
             # Karpathy's lr :)
-            optimizer = optim.Adam(self.parameters(), lr=3e-3)
+            optimizer = optim.Adam(self.parameters(), lr=3e-4)
         else:
             optimizer = self.hparams.optimizer(params=self.parameters())
 
