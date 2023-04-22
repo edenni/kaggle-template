@@ -4,8 +4,8 @@ import hydra
 import pytorch_lightning as pl
 from omegaconf import DictConfig
 
-from psp.pipeline import pipelines
-from psp.utils.rich import print_config_tree
+from project.pipeline import pipelines
+from project.utils.rich import print_config_tree
 
 logger = logging.getLogger(__name__)
 
