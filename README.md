@@ -8,7 +8,7 @@ By 2023/4, Kaggle notebook uses python 3.7 by default.
 
 ### Install Package and Dependencies
 
-Change project name under src/ then run:
+Change project name under src/ and in setup.py, then run:
 
 ``` shell
 pip install -e .
