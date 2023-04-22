@@ -13,3 +13,6 @@ plotly
 colorlog
 rich
 hydra-core
+black
+flake8
+isort
