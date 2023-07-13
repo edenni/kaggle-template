@@ -14,6 +14,14 @@ Change project name under src/ and in setup.py, then run:
 pip install -e .
 ```
 
+### Update requirements.txt
+
+Update requirements.txt with the package versions you have installed.
+
+``` shell
+pip list format=freeze > requirements.txt
+```
+
 ### Install VSCode Extension
 
 - Python

@@ -16,3 +16,7 @@ hydra-core
 black
 flake8
 isort
+ipykernel
+jupyter
+jupyterlab
+ipywidgets
