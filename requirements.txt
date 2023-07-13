@@ -20,3 +20,4 @@ ipykernel
 jupyter
 jupyterlab
 ipywidgets
+nvitop
