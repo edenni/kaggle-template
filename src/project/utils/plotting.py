@@ -29,7 +29,7 @@ def plot_univar_dist(
 
     if ax is None:
         fig, ax = plt.subplots(figsize=(8, 4))
-    sns.histplot(data=data, bins=bins, kde=True, palette=colors, ax=ax)
+    sns.histplot(data=data, bins=bins, kde=True, ax=ax)
     ax.axvline(
         x=data.mean(),
         color="orange",
