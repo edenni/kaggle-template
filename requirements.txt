@@ -1,7 +1,7 @@
 numpy
 pandas
 polars
-sklearn
+scikit-learn
 lightgbm
 xgboost
 catboost
